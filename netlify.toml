@@ -1,27 +1,27 @@
 [[redirects]]
   from = "/"
-  to = "/home.html"
-  status = 301
+  to = "/pages/home.html"
+  status = 200
 
 [[redirects]]
-  from = "/pages/home.html"
-  to = "/home"
-  status = 301
+  from = "/home"
+  to = "/pages/home.html"
+  status = 200
 
 [[redirects]]
-  from = "/pages/games.html"
-  to = "/games"
-  status = 301
+  from = "/games"
+  to = "/pages/games.html"
+  status = 200
 
 [[redirects]]
-  from = "/pages/about.html"
-  to = "/about"
-  status = 301
+  from = "/about"
+  to = "/pages/about.html"
+  status = 200
 
 [[redirects]]
-  from = "/pages/contact.html"
-  to = "/contact"
-  status = 301
+  from = "/contact"
+  to = "/pages/contact.html"
+  status = 200
 
 [[redirects]]
   from = "/*"

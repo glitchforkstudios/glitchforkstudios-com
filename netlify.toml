@@ -1,0 +1,29 @@
+[[redirects]]
+  from = "/"
+  to = "/home.html"
+  status = 301
+
+[[redirects]]
+  from = "/pages/home.html"
+  to = "/home"
+  status = 301
+
+[[redirects]]
+  from = "/pages/games.html"
+  to = "/games"
+  status = 301
+
+[[redirects]]
+  from = "/pages/about.html"
+  to = "/about"
+  status = 301
+
+[[redirects]]
+  from = "/pages/contact.html"
+  to = "/contact"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, .logo-text {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+}
+
+header {
+    padding: 40px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ff006f;
+    font-weight: bold;
+    
+    display: inline-block;
+    transition: 
+        color 0.3s ease,
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        padding 0.3s ease;
+
+    text-shadow: 0 0 5px #ff006f;
+}
+
+a:hover {
+    color: #00c3ff;
+    transform: scale(1.05);
+    text-shadow: 0 0 10px #00c3ff, 0 0 20px #00c3ff;
+}
+
+a:active {
+    transform: scale(1.1);  
+    color: #00c3ff;
+}
+
+nav a {
+    margin: 0 15px;
+}
+
+nav span {
+    position: relative;
+    margin: 0 10px;
+}
+
+nav span:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: -15px;
+    top: 0;
+    color: #ffffff80;
+}
+
+.tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    opacity: 0.9;
+    color: #00c3ff;
+}
+
+.hero {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+    background: linear-gradient(135deg, #00eaff40, #8a2be240);
+    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hero-logo {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.hero-tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+
+.content-box {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+}
+
+.content-box h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.content-box p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hero {
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}

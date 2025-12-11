@@ -1,16 +1,16 @@
- /                      /home                         301
+/                       /home                       301
 
-/pages/home.html        /home                         200
-/pages/games.html       /games                        200
-/pages/about.html       /about                        200
-/pages/contact.html     /contact                      200
+/home                   pages/home.html             200
+/games                  pages/games.html            200
+/about                  pages/about.html            200
+/contact                pages/contact.html          200
 
-/home.html              /home                         301
-/games.html             /games                        301
-/about.html             /about                        301
-/contact.html           /contact                      301
+/home.html              /home                       301
+/games.html             /games                      301
+/about.html             /about                      301
+/contact.html           /contact                    301
 
-/pages/home             /home                         301
-/pages/games            /games                        301
-/pages/about            /about                        301
-/pages/contact          /contact                      301
+/pages/home             /home                       301
+/pages/games            /games                      301
+/pages/about            /about                      301
+/pages/contact          /contact                    301

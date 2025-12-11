@@ -5,3 +5,11 @@
 /contact /pages/contact.html 200
 
 /*       /404.html        404
+
+/ /home 301
+/pages/home.html /home 200
+/pages/games.html/ /games 200
+/pages/about.html /about 200
+/pages/contact.html /contact 200
+
+/* /404.html 404

@@ -1,2 +1,2 @@
 # Redirect root → /home
-/                      /home.html                   301
+/                      /home/index.html                   301

@@ -122,6 +122,46 @@ nav span:not(:last-child)::after {
     margin-top: 40px;
 }
 
+.social-box {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+}
+
+.social-box h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.social-box p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.social-box img {
+    width: 80px;
+    height: 80px;
+    object-fit: scale-down;
+    border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+    .social-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-box img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
 .logo {
     width: 120px;
     height: auto;
@@ -131,6 +171,12 @@ nav span:not(:last-child)::after {
 
 .hero {
     animation: fadeIn 1s ease forwards;
+}
+
+.separator {
+    width: 100%;
+    border-bottom: 7px dotted rgba(255, 255, 255, 0.03);
+    margin: 40px 0;
 }
 
 #bg-particles {
